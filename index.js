@@ -29,6 +29,8 @@ function buttonAnimation(button_index) {
 document.getElementById("submit").addEventListener("click", function(){
     var unet_string = document.getElementById("search").value
     unet_string = unet_string.toLowerCase();
+    var test = "GIRAFFE";
+    unet_string = test.toLowerCase();
     buttonAnimation(this)
     searchAndPlaySounds(unet_string)
      if (unet_string === "giraffe"){
